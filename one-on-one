@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Onclass: One-on-One</title>
+    <style>
+        body{
+            background-color: #89d2f7;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 14px;
+            color: #001427;
+            margin: 50px;
+            margin-left: 160px;
+        }
+        nav{
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #00689c;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        #oneonone{
+            text-align: center;
+        }
+        table{
+            width: 50%;
+        }
+        table, td{
+            border: 1px solid #03090e;
+        }
+        table a{
+            float: right;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="head">
+        <img src="#"/>
+        <header>ONCLASS</header>
+        <!--header and logo stuff-->
+    </div>
+    <div id="nav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a>
+                <ul>
+                    <li><a href="#">How We Started</a></li>
+                    <li><a href="#">Meet the Tutors</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Sessions</a>
+                <ul>
+                    <li><a href="#">One on One</a></li>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">Library</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Past Sessions</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="oneonone">
+        <h1>One on One</h1>
+        <p>Brief description of tutoring stuff. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae. Nunc lobortis mattis aliquam faucibus purus. Sed arcu non odio euismod lacinia at quis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Non blandit massa enim nec dui nunc. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. </p>
+        <div>
+            <h2>MATH</h2>
+            <table>
+                <tr>
+                    <td class="sess">Session #1<a href="#">Sign Up</a></td>
+                </tr><!--float links to right-->
+                <tr>
+                    <td class="sess">Session #2<a href="#">Sign Up</a></td>
+                </tr>
+                <tr>
+                    <td>Add description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae. Nunc lobortis mattis aliquam faucibus purus.</td>
+                </tr>
+                <tr>
+                    <td>Here is a place to give necessary info.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>TECH</h2>
+            <table>
+                <tr>
+                    <td class="sess">Session #1<a href="#">Sign Up</a></td>
+                </tr><!--float links to right-->
+                <tr>
+                    <td class="sess">Session #2<a href="#">Sign Up</a></td>
+                </tr>
+                <tr>
+                    <td>Add description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae. Nunc lobortis mattis aliquam faucibus purus.</td>
+                </tr>
+                <tr>
+                    <td>Here is a place to give necessary info.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>LANGUAGE ARTS</h2>
+            <table>
+                <tr>
+                    <td class="sess">Session #1<a href="#">Sign Up</a></td>
+                </tr><!--float links to right-->
+                <tr>
+                    <td class="sess">Session #2<a href="#">Sign Up</a></td>
+                </tr>
+                <tr>
+                    <td>Add description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae. Nunc lobortis mattis aliquam faucibus purus.</td>
+                </tr>
+                <tr>
+                    <td>Here is a place to give necessary info.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>SCIENCE</h2>
+            <table>
+                <tr>
+                    <td class="sess">Session #1<a href="#">Sign Up</a></td>
+                </tr><!--float links to right-->
+                <tr>
+                    <td class="sess">Session #2<a href="#">Sign Up</a></td>
+                </tr>
+                <tr>
+                    <td>Add description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer enim neque volutpat ac tincidunt vitae. Nunc lobortis mattis aliquam faucibus purus.</td>
+                </tr>
+                <tr>
+                    <td>Here is a place to give necessary info.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
